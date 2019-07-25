@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="OrdersAggregate\" />
+        <Folder Include="OrdersAggregate\Commands\" />
+        <Folder Include="OrdersAggregate\Services\" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="CRZ.Framework.Domain" Version="1.2.0" />
+    </ItemGroup>
+</Project>

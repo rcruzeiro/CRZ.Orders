@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRZ.Orders.Domain", "CRZ.Orders.Domain\CRZ.Orders.Domain.csproj", "{22DA0D5B-E677-4A75-BD1C-A63DE8D2EE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRZ.Orders.Application", "CRZ.Orders.Application\CRZ.Orders.Application.csproj", "{FEF0EFDE-143C-40B3-BFA9-E4B7133E2139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRZ.Orders.Infrastructure", "CRZ.Orders.Infrastructure\CRZ.Orders.Infrastructure.csproj", "{2C460831-7BB9-41DF-AA53-A5389B6F737F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22DA0D5B-E677-4A75-BD1C-A63DE8D2EE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DA0D5B-E677-4A75-BD1C-A63DE8D2EE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DA0D5B-E677-4A75-BD1C-A63DE8D2EE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DA0D5B-E677-4A75-BD1C-A63DE8D2EE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF0EFDE-143C-40B3-BFA9-E4B7133E2139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF0EFDE-143C-40B3-BFA9-E4B7133E2139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF0EFDE-143C-40B3-BFA9-E4B7133E2139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF0EFDE-143C-40B3-BFA9-E4B7133E2139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C460831-7BB9-41DF-AA53-A5389B6F737F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C460831-7BB9-41DF-AA53-A5389B6F737F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C460831-7BB9-41DF-AA53-A5389B6F737F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C460831-7BB9-41DF-AA53-A5389B6F737F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

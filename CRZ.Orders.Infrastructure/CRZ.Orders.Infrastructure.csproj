@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CRZ.Orders.Application\CRZ.Orders.Application.csproj" />
+        <ProjectReference Include="..\CRZ.Orders.Domain\CRZ.Orders.Domain.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="IoC\" />
+      <Folder Include="Services\" />
+      <Folder Include="Providers\" />
+    </ItemGroup>
+</Project>
